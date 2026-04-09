@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷 | Your Name</title>
+    <style>
+        :root {
+            --primary-color: #2d3436;
+            --accent-color: #0984e3;
+            --bg-color: #f5f6fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 20px;
+        }
+        h1 { margin: 0; color: var(--accent-color); }
+        .contact-info { margin-top: 10px; font-size: 0.9em; color: #636e72; }
+        section { margin-top: 30px; }
+        h2 { border-left: 5px solid var(--accent-color); padding-left: 10px; font-size: 1.5em; }
+        .item { margin-bottom: 20px; }
+        .item-title { font-weight: bold; display: flex; justify-content: space-between; }
+        .tags { margin-top: 5px; }
+        .tag {
+            display: inline-block;
+            background: var(--bg-color);
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>黃子郝</h1>
+        <div class="contact-info">
+            Email: 12345678910@gmail.com | 電話: 0912-345-678<br>
+                    </div>
+    </header>
+
+    <section>
+        <h2>關於我</h2>
+        <p>您好！我是黃子郝，目前在國立勤益科技大學自動化就讀。並持續探索賽馬娘，傳說對決。期待能與各領域夥伴交流，共同激盪出更多有趣的可能！</p>
+    </section>
+
+    <section>
+        <h2>學歷</h2>
+        <div class="item">
+            <div class="item-title">
+                <span>國立勤益科技大學自動化</span>
+                <span>2024 - </span>
+            </div>
+            <ul>
+                <li>養馬 。</li>
+                <li>打星星。</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>技能專長</h2>
+        <div class="tags">
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Cloudflare</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>興趣</h2>
+        <div class="item">
+            <div class="item-title">
+                <span>養出高品質的馬</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
